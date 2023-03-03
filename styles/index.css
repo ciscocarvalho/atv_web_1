@@ -1,0 +1,84 @@
+body, html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+header, main {
+    font-size: large;
+}
+
+header {
+    display: flex;
+    background-color: #8D7BC2;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    height: 60px;
+    user-select: none;
+}
+
+.logo-link {
+    background-color: #EDEDED;
+    color: #000;
+    /* no layout de exemplo, o padding da direita é maior */
+    padding: 10px 20px 10px 10px;
+    border: 1px solid #000;
+    border-radius: 4px;
+}
+
+.links-container {
+    display: flex;
+}
+
+.links-container .link-sep {
+    cursor: default;
+    margin: 0 5px;
+}
+
+.links-container .home-link {
+    border: 0;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    height: 100%;
+    justify-content: space-around;
+    padding: 80px 40px;
+    gap: 80px;
+}
+
+main div {
+    min-height: 200px;
+    width: 100%;
+    padding: 40px;
+    border-radius: 40px;
+}
+
+main div p {
+    color: #000;
+    text-align: center;
+}
+
+.missao {
+    background-color: #69A74E;
+}
+
+.visao {
+    background-color: #6EA7DB;
+}
+
+.valores {
+    background-color: #F5B16A;
+}
+
+footer {
+    width: 100%;
+    height: 60px;
+    background-color: #989898;
+}
